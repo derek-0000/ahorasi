@@ -2,7 +2,9 @@ import React from "react"
 import { FlatList, StyleSheet} from "react-native";
 import Character from "./Character";
 
+///Function that defines the formation of the list that will show the characters
 export default  function CharacterList({characters, navigation}){
+    console.log(characters)
     return(
         <FlatList
             data = {characters}

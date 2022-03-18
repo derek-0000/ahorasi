@@ -2,6 +2,8 @@ import React from 'react';
 import  { View, Text, StyleSheet, Image } from 'react-native'
 import { backgroundColor } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
 
+//Definition of the structure of the Details Screen for the characters
+
 export default function DetailCharacter(props){
     const { character } = props.route.params;
     return(

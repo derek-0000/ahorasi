@@ -5,8 +5,10 @@ import CharacterList from "../components/characterList";
 import { NavigationContainer } from "@react-navigation/native";
 import { onChange } from "react-native-reanimated";
 
-
+//Define the funtion to work wit h filtered characters and show the characters in the list
 export default function CharactersScreen({navigation}){
+
+
 
     const[characters, setCharacters] = useState([]);
     const [filterData, setFilterData] = useState ("");
@@ -57,7 +59,7 @@ export default function CharactersScreen({navigation}){
         </SafeAreaView>
     )
 }
-
+//Styles
 const styles = StyleSheet.create({
     container_indicator:{
         flex:1,

@@ -4,8 +4,8 @@ import { getEpisodeName } from "../api/character";
 import { NavigationContainer } from "@react-navigation/native";
 
 export default function Character({character, navigation}){
+    //We call the function to get the data
     const [episode, setEpisode] = useState();
-
     const fetchEpisodeData = async() => {
         const request = await getEpisodeName (character.episode[0]);
         setEpisode(request);
@@ -13,7 +13,7 @@ export default function Character({character, navigation}){
     useEffect(() => {
         fetchEpisodeData();
     })
-
+//Define how the character information is printed, and define when the character is clicked it shows its details in a new screen
     return(
         <TouchableWithoutFeedback onPress={()=>{
             navigation.navigate("detailCharacter",{character})
@@ -39,6 +39,7 @@ export default function Character({character, navigation}){
         </TouchableWithoutFeedback>
     )
 }   
+//Styles
 const styles={
     character:{
         felx:1,

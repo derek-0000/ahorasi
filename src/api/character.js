@@ -1,5 +1,5 @@
 const URL = "https://rickandmortyapi.com/api/character/"
-
+// Creation of the asyncronus functions that will make the requests to the API
 export async function getCharacterApi(){
     try{
         const request = await fetch (`${URL}`);
