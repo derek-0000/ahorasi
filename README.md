@@ -1,4 +1,4 @@
-Mobile Applicatin with React Native X JikanAPI
+# Mobile Applicatin with React Native X JikanAPI
 Derek Alvarado - TIDBIS4IM - App Design
 Splashscreen:
 <div>
