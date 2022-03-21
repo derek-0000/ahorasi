@@ -12,3 +12,7 @@ Details Screen:
 <div>
   <img src = "https://user-images.githubusercontent.com/81263819/159376024-3748ece8-183f-4872-9a4d-3dc0c586d6f5.png" width="250">
 </div>
+Coevaluated by Alex Barraza:
+<div>
+  <img src = "https://user-images.githubusercontent.com/81263819/159378471-ec1650b9-781a-41d5-9c23-e6eeb00bae06.jpeg" width="250">
+</div>
