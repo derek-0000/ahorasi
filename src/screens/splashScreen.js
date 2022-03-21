@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { StyleSheet, Image, SafeAreaView } from 'react-native';
 
-const image_url = "https://mystickermania.com/cdn/stickers/rick-and-morty/sticker_2060-512x512.png"
+const image_url = "https://static.wikia.nocookie.net/doblaje/images/9/9e/Horimiya_-_Poster.jpg/revision/latest?cb=20210810165454&path-prefix=es"
 
 export default function SplashScreen({navigation}){
 
     useEffect(() => {
         setTimeout(() => {
-            navigation.replace("Characters")
+            navigation.replace("CharactersList")
         },3000)
     });
     return(
@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
         backgroundColor:"#e2e7da"
     },
     image:{
-        width:250,
-        height:250,
+        width:400,
+        height:650,
         alignSelf:'center'
     }
 })
